@@ -221,6 +221,12 @@ hi def link org_list_ordered Identifier
 syn match org_list_unordered "^\s\+[-*+]\s"
 hi def link org_list_unordered Identifier
 
+" Unordered:
+" -- list item
+" ++ list item
+syn match org_list_unordered_2nd_level "^\s\+[-+][-+]\s"
+hi def link org_list_unordered_2nd_level Identifier
+
 " Definitions:
 " - Term :: expl.
 " 1) Term :: expl.
